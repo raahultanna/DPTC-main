@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440369881742",
+    "project_id": "dptc-57be9",
+    "storage_bucket": "dptc-57be9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440369881742:android:45a548452e618b90a69fdf",
+        "android_client_info": {
+          "package_name": "com.team7.dptc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440369881742-bqg8fukf6ek5has6s0ricn95038iqnsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVO03liLnOBhinPQsXRSI4CT-NaAtI4po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440369881742-bqg8fukf6ek5has6s0ricn95038iqnsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
