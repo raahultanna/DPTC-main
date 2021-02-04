@@ -1,6 +1,5 @@
-package com.example.dptc;
+package com.team7.dptc;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,9 +9,11 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
 
-    private static int SPLASH_SCREEN =2500;
+    private static int SPLASH_SCREEN =2000;
 
     ImageView imageView;
     TextView textView;
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                Intent intent = new Intent(MainActivity.this, Users.class);
                 startActivity(intent);
                 finish();
             }

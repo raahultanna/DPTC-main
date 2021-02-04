@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.example.dptc"
+        applicationId "com.team7.dptc"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
@@ -47,6 +47,15 @@ dependencies {
 
     // Add the dependencies for any other desired Firebase products
     // https://firebase.google.com/docs/android/setup#available-libraries
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-core:11.0.2'
+    implementation 'com.google.firebase:firebase-database:11.0.2'
+    implementation 'com.google.firebase:firebase-crashlytics'
+
 }
+apply plugin: 'com.google.gms.google-services'  // Google Services plugin
+
+apply plugin: 'com.google.firebase.crashlytics'
 
 
