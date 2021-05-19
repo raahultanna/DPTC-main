@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Report"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/b" />
+
+
+    <EditText
+        android:id="@+id/rname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Name"
+        android:textColorHint="@color/teal_200"
+        android:textColor="@color/teal_200"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/remail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rname"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:textColorHint="@color/teal_200"
+        android:textColor="@color/teal_200"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/rmess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/remail"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="Message"
+        android:textColorHint="@color/teal_200"
+        android:textColor="@color/teal_200"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Send the Feedback"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/btn_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="300dp"
+        android:enabled="false"
+        android:text="View Sended details"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"/>
+
+</RelativeLayout>

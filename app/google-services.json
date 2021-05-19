@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "440369881742",
-    "project_id": "dptc-57be9",
-    "storage_bucket": "dptc-57be9.appspot.com"
+    "project_number": "610223998753",
+    "project_id": "dptc-4002f",
+    "storage_bucket": "dptc-4002f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:440369881742:android:45a548452e618b90a69fdf",
+        "mobilesdk_app_id": "1:610223998753:android:fe4dffac3e1bb0f9e26060",
         "android_client_info": {
           "package_name": "com.team7.dptc"
         }
       },
       "oauth_client": [
         {
-          "client_id": "440369881742-bqg8fukf6ek5has6s0ricn95038iqnsv.apps.googleusercontent.com",
+          "client_id": "610223998753-dhbmjk4d82i6madn61d3sqtksbths3c7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAVO03liLnOBhinPQsXRSI4CT-NaAtI4po"
+          "current_key": "AIzaSyABg7YyycLiqi7CdQ7XT8wEFWQk_QQYFWo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "440369881742-bqg8fukf6ek5has6s0ricn95038iqnsv.apps.googleusercontent.com",
+              "client_id": "610223998753-dhbmjk4d82i6madn61d3sqtksbths3c7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

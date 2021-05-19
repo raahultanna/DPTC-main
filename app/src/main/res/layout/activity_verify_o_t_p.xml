@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".VerifyOTP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_close_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/allerta_stencil"
+            android:includeFontPadding="false"
+            android:text="Co\nde"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/teal_200"
+            android:textSize="100sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/allerta_stencil"
+            android:includeFontPadding="false"
+            android:text="Verification"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/teal_200"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:includeFontPadding="false"
+            android:text="Enter one time password sent"
+            android:textColor="@color/teal_200"
+            android:textSize="16sp" />
+
+        <com.chaos.view.PinView
+            android:id="@+id/PinView"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/teal_200"
+            android:cursorVisible="true"
+            android:inputType="number"
+            android:itemBackground="@color/teal_200"
+            app:cursorColor="@color/teal_200"
+            app:hideLineWhenFilled="true"
+            app:itemCount="6"
+            app:itemHeight="50dp"
+            app:itemRadius="5dp"
+            app:itemWidth="50dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/teal_200"
+            android:text="Verify Code"
+            android:textColor="@color/black"
+            android:onClick="callNextScreenFromOTP"
+            android:transitionName="transition_OTP_screen"/>
+
+
+    </LinearLayout>
+</ScrollView>
